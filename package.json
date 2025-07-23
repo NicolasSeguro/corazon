@@ -1,0 +1,32 @@
+{
+  "name": "uncorazon-internship",
+  "version": "1.0.0",
+  "description": "Sitio web oficial para el programa de Internship de Un Corazón Iglesia",
+  "main": "index.html",
+  "scripts": {
+    "start": "live-server --port=3000 --open=/index.html",
+    "dev": "live-server --port=3000 --open=/index.html --watch=.",
+    "build": "echo 'No build process needed for static site'",
+    "test": "echo 'No tests specified'"
+  },
+  "keywords": [
+    "internship",
+    "iglesia",
+    "ministerio",
+    "formación",
+    "liderazgo"
+  ],
+  "author": "Un Corazón Iglesia",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uncorazon/internship-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uncorazon/internship-website/issues"
+  },
+  "homepage": "https://uncorazon.org/internship"
+} 
