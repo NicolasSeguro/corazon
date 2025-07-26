@@ -103,7 +103,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Funcionalidad del botón CTA
 document.addEventListener('DOMContentLoaded', () => {
-    const ctaButton = document.querySelector('.cta-button');
+    const ctaButton = document.querySelector('');
     
     if (ctaButton) {
         ctaButton.addEventListener('click', () => {
